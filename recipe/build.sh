@@ -4,3 +4,5 @@
 
 make
 make install
+make check
+

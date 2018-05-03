@@ -13,10 +13,13 @@ source:
 build:
   number: 0
   skip: True  # [win]
+  run_exports:
+   - {{ pin_subpackage('libgpg-error') }}
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
 
 test:
   commands:

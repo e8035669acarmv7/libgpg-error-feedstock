@@ -14,14 +14,16 @@ Summary: a small library that originally defined common error values for all Gnu
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libgpg-error-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libgpg-error-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libgpg-error-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libgpg-error-feedstock)
-Windows: ![](https://cdn.rawgit.com/conda-forge/conda-smithy/90845bba35bec53edac7a16638aa4d77217a3713/conda_smithy/static/disabled.svg)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libgpg-error-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libgpg-error-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libgpg-error-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libgpg-error-feedstock)
+![Windows disabled](https://img.shields.io/badge/Windows-disabled-lightgrey.svg)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libgpg-error/badges/version.svg)](https://anaconda.org/conda-forge/libgpg-error)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libgpg-error/badges/downloads.svg)](https://anaconda.org/conda-forge/libgpg-error)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libgpg--error-green.svg)](https://anaconda.org/conda-forge/libgpg-error) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgpg-error.svg)](https://anaconda.org/conda-forge/libgpg-error) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgpg-error.svg)](https://anaconda.org/conda-forge/libgpg-error) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgpg-error.svg)](https://anaconda.org/conda-forge/libgpg-error) |
 
 Installing libgpg-error
 =======================

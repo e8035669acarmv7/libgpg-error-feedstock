@@ -1,6 +1,6 @@
 {% set name = "libgpg-error" %}
-{% set version = "1.30" %}
-{% set sha256 = "238c6e87adf52b0147081927c981730756a0526ad0733201142a676786847ed7" %}
+{% set version = "1.31" %}
+{% set sha256 = "40d0a823c9329478063903192a1f82496083b277265904878f4bc09e0db7a4ef" %}
 
 package:
   name: {{ name|lower }}
@@ -13,10 +13,13 @@ source:
 build:
   number: 0
   skip: True  # [win]
+  run_exports:
+   - {{ pin_subpackage('libgpg-error') }}
 
 requirements:
   build:
-    - toolchain
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
 
 test:
   commands:

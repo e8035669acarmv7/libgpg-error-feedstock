@@ -1,6 +1,6 @@
 {% set name = "libgpg-error" %}
-{% set version = "1.31" %}
-{% set sha256 = "40d0a823c9329478063903192a1f82496083b277265904878f4bc09e0db7a4ef" %}
+{% set version = "1.32" %}
+{% set sha256 = "c345c5e73cc2332f8d50db84a2280abfb1d8f6d4f1858b9daa30404db44540ca" %}
 
 package:
   name: {{ name|lower }}

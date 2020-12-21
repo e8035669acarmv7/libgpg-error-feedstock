@@ -1,6 +1,6 @@
 {% set name = "libgpg-error" %}
-{% set version = "1.39" %}
-{% set sha256 = "4a836edcae592094ef1c5a4834908f44986ab2b82e0824a0344b49df8cdb298f" %}
+{% set version = "1.41" %}
+{% set sha256 = "64b078b45ac3c3003d7e352a5e05318880a5778c42331ce1ef33d1a0d9922742" %}
 
 package:
   name: {{ name|lower }}
@@ -29,8 +29,6 @@ requirements:
 test:
   commands:
     - test -f $PREFIX/lib/libgpg-error.so  # [linux]
-    - conda inspect linkages {{ name }}
-    - conda inspect objects {{ name }}  # [osx]
 
 about:
   home: https://www.gnupg.org/software/libgpg-error/index.html

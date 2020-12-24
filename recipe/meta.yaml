@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://www.gnupg.org/software/libgpg-error/index.html
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_file: COPYING
   license_family: GPL
   summary: a small library that originally defined common error values for all GnuPG components

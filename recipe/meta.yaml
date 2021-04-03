@@ -18,9 +18,14 @@ build:
 
 requirements:
   build:
+    - gnuconfig  # [unix]
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - make  # [unix]
+    - libtool  # [unix]
+    - automake  # [unix]
+    - xz  # [unix]
+    - gnuconfig  # [osx]
   host:
     - gettext
   run:

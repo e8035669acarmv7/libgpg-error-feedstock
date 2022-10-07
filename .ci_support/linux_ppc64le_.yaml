@@ -14,13 +14,10 @@ cxx_compiler_version:
 - '10'
 docker_image:
 - quay.io/condaforge/linux-anvil-ppc64le
-pin_run_as_build:
-  xz:
-    max_pin: x.x
 target_platform:
 - linux-ppc64le
 xz:
-- '5.2'
+- '5'
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version

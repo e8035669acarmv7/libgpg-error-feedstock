@@ -1,6 +1,6 @@
 {% set name = "libgpg-error" %}
-{% set version = "1.48" %}
-{% set sha256 = "89ce1ae893e122924b858de84dc4f67aae29ffa610ebf668d5aa539045663d6f" %}
+{% set version = "1.49" %}
+{% set sha256 = "8b79d54639dbf4abc08b5406fb2f37e669a2dec091dd024fb87dd367131c63a9" %}
 
 package:
   name: {{ name|lower }}
@@ -20,6 +20,7 @@ requirements:
   build:
     - gnuconfig  # [unix]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
     - {{ compiler('cxx') }}
     - make  # [unix]
     - libtool  # [unix]
